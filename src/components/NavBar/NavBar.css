@@ -1,0 +1,40 @@
+.nav {
+  width: 100%;
+
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  display: none;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav__menu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.nav__menu li {
+  display: flex;
+  margin: 15px;
+  font-family: "GothamLight";
+}
+
+.nav__menu div {
+  border-bottom: 5px solid white;
+}
+
+.nav__menu div:hover {
+  border-bottom: 5px solid #f7573c;
+}
+
+/* Large Screens */
+@media screen and (min-width: 992px) {
+  .nav {
+    display: flex;
+  }
+}

@@ -1,0 +1,14 @@
+.slider-container {
+  background-image: url(./data/back.png);
+  background-size: cover;
+}
+
+.item-container-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide-image {
+  width: 100%;
+}

@@ -1,0 +1,57 @@
+.news-card {
+  background-color: #015f74;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+
+  justify-content: flex-end;
+}
+
+.news-card__header {
+  background-color: #015f74;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 20px;
+  padding-right: 20px;
+  z-index: 1;
+  border-radius: 0px 0px 25px 25px;
+  height: 150px;
+  flex-shrink: 0;
+}
+
+.news-card__header:hover {
+  background-color: #f7573c;
+}
+
+.news-card__header h4 {
+  color: #fff;
+  text-decoration: none;
+  font-family: GothamBold;
+  font-synthesis: none;
+  font-size: 18px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.news-card__header span {
+  color: #fff;
+  font-family: GothamBook;
+  font-synthesis: none;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.news-card__image {
+  align-items: flex-end;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  background-image: url("./images/background.png");
+  background-size: cover;
+}
+
+.news-card__image img {
+  width: 290px;
+}

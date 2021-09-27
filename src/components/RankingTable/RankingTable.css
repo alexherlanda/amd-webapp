@@ -1,0 +1,15 @@
+.ranking-table {
+  width: 90%;
+  border-collapse: collapse;
+  border-spacing: 20px;
+  border-collapse: separate;
+}
+
+.ranking-table tr {
+  font-family: "GothamBold";
+  font-synthesis: none;
+  height: 45px;
+  border-radius: 12px;
+  color: #205979;
+  box-shadow: 0px 10px 13px -5px #bebebe;
+}

@@ -1,0 +1,8 @@
+.interests-widget {
+  width: 100%;
+}
+
+.interests-widget__item {
+  display: flex;
+  justify-content: center;
+}

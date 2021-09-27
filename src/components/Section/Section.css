@@ -1,0 +1,29 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.section__description {
+  padding: 5px;
+  text-align: center;
+  font-family: "GothamBook";
+  font-synthesis: none;
+  font-size: 17px;
+  margin-bottom: 30px;
+  color: #969696;
+  flex-shrink: 0;
+  min-width: auto;
+}
+
+.section__title {
+  font-family: "GothamBold";
+  font-synthesis: none;
+  font-synthesis: none;
+  font-size: 27px;
+  color: #205979;
+  flex-shrink: 0;
+}

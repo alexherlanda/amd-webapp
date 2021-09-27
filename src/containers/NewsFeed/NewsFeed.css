@@ -1,0 +1,8 @@
+.news-feed-widget {
+  width: 100%;
+}
+
+.news-feed-widget__item {
+  display: flex;
+  justify-content: center;
+}

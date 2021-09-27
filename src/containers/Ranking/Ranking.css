@@ -1,0 +1,28 @@
+.ranking-bar {
+  background-color: #015f74;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  border-top: 15px solid #f7573c;
+  height: 250px;
+}
+
+.ranking__table-container {
+  overflow: auto;
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  height: 250px;
+}
+
+.visibility {
+  display: none;
+}
+
+/* Large Screens */
+@media screen and (min-width: 992px) {
+  .visibility {
+    display: flex;
+  }
+}

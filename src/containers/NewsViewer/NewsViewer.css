@@ -1,0 +1,15 @@
+.news-feed-viewer {
+  padding-top: 25px;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+.news-feed-viewer h2 {
+  font-family: GothamBold;
+  color: #4c4e4d;
+}
+
+.news-feed-viewer p {
+  font-family: GothamBook;
+  color: #666666;
+}

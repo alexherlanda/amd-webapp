@@ -1,0 +1,35 @@
+.speaker-card {
+  position: relative;
+  background-color: #015f74;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  border-radius: 12px;
+  height: 280px;
+  width: 280px;
+}
+
+.speaker-image {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border-radius: 12px 12px 0px 0px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 193px;
+}
+
+.speaker-image img {
+  position: relative;
+}
+
+.speaker-card__name {
+  border-top: 5px solid #f7573c;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  font-family: "GothamBold";
+}

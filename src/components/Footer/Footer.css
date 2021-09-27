@@ -1,0 +1,86 @@
+.footer {
+  align-items: center;
+  background-color: #015f74;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  background-image: url("../Footer//images/background.png");
+  background-size: cover;
+  background-position-x: center;
+}
+
+.footer__title {
+  font-family: "GothamBold";
+  font-synthesis: none;
+}
+
+.footer__text {
+  font-family: "GothamLight";
+  font-synthesis: none;
+}
+
+.footer__email {
+  font-family: "GothamLight";
+  font-synthesis: none;
+  color: white;
+  font-size: 16px;
+}
+
+.footer__logo {
+  margin-bottom: 50px;
+  width: 120px;
+}
+
+.footer__about-us {
+  /* background-color: green; */
+  display: none;
+  color: white;
+}
+
+.footer__about-us p {
+  width: 350px;
+  font-size: 16px;
+}
+
+.footer__social {
+  /* background-color: orange; */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 270px;
+}
+
+.footer__social span {
+  color: white;
+}
+
+.social__buttons-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  width: 100%;
+}
+
+/* Large Screens */
+@media screen and (min-width: 992px) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .footer__about-us {
+    display: block;
+  }
+}
+
+/* xs: '480px',
+   sm: '576px',
+   md: '768px',
+   lg: '992px',
+   xl: '1200px',
+   xxl: '1600px',  */
