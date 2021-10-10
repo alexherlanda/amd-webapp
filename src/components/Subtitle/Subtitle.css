@@ -1,0 +1,8 @@
+.subtitle {
+  border-left: 10px solid var(--secondary);
+  color: var(--main-theme);
+  font-family: "GothamBold";
+  text-transform: uppercase;
+  margin-bottom: 4rem;
+  padding-left: 20px;
+}

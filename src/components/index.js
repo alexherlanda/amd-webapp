@@ -9,7 +9,10 @@ import SpeakerCard from "./SpeakerCard";
 import NavBar from "./NavBar";
 import MenuMobile from "./MenuMobile";
 import SliderMobile from "./SliderMobile";
-
+import SectionResume from "./SectionResume";
+import SectionImage from "./SectionImage";
+import TeamMember from "./TeamMember";
+import Subtitle from "./Subtitle";
 export {
   TopBar,
   NewsCard,
@@ -22,4 +25,8 @@ export {
   NavBar,
   MenuMobile,
   SliderMobile,
+  SectionResume,
+  SectionImage,
+  TeamMember,
+  Subtitle,
 };

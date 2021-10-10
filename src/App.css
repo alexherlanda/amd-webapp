@@ -17,3 +17,34 @@
   font-family: "GothamLight";
   src: url("./assets/fonts/Gotham-Light.otf");
 }
+
+:root {
+  --main-theme: #205979;
+  --secondary: #fb6e4c;
+  --header: #da5738;
+  --text: #969696;
+  --light-background: #f2f2f2;
+  --main-background: #ffffff;
+}
+
+@media (min-width: 576px) {
+  section .section__container {
+    width: 100%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  section .section__container {
+    margin: 0 auto;
+    width: 90%;
+  }
+}

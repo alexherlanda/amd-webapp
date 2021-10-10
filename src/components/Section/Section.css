@@ -2,9 +2,57 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 25px;
-  margin-top: 25px;
+  padding-bottom: 25px;
+  padding-top: 25px;
   text-align: center;
+  box-sizing: border-box;
+}
+
+.section__single {
+  background: var(--main-background);
+}
+
+.section__segment {
+  background: var(--light-background);
+}
+
+.section__resume {
+  border-top: 10px solid var(--secondary);
+  background: var(--main-theme);
+}
+.section__container {
+  font-family: "GothamBook";
+  font-size: 1.2rem;
+  text-align: justify;
+  padding: 60px;
+}
+
+.section__line {
+  margin-top: 25px;
+  width: 100%;
+  height: auto;
+  padding-left: 25px;
+  border-left: 10px solid var(--secondary);
+}
+
+.section__resume .section__description,
+.section__resume .section__title {
+  color: var(--light-background);
+}
+.section__resume .section__container {
+  color: var(--light-background);
+}
+
+.section__segment .section__title {
+  color: var(--main-theme);
+}
+
+.section__segment .section__container {
+  color: var(--text);
+}
+
+.section__segment .section__description {
+  color: var(--text);
 }
 
 .section__description {

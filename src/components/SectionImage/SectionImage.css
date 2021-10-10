@@ -1,0 +1,12 @@
+.container__image {
+  border-radius: 20px;
+  margin: 0 auto;
+  vertical-align: top;
+  width: 80%;
+}
+
+.container__image img {
+  border-bottom: 20px solid var(--secondary);
+  border-radius: 20px 20px 20px 20px;
+  width: 100%;
+}

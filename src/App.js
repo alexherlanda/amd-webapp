@@ -1,6 +1,12 @@
 import { MenuMobile, TopBar, NavBar } from "./components";
 import { useState } from "react";
-import { Home, NewsViewer, Building as WIP } from "./containers";
+import {
+  Home,
+  NewsViewer,
+  Building as WIP,
+  PageTest,
+  About,
+} from "./containers";
 import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
 
 import "./App.css";
@@ -23,8 +29,10 @@ function App() {
             <NavBar />
             <Switch>
               <Route exact path="/news/:id" component={NewsViewer} />
+              <Route exact path="/about" component={About} />
               <Route exact path="/wip" component={WIP} />
               <Route exact path="/" component={Home} />
+              <Route exact path="/test" component={PageTest} />
             </Switch>
           </>
         )}

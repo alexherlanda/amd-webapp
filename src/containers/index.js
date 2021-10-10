@@ -5,5 +5,17 @@ import Ranking from "./Ranking";
 import Home from "./Home";
 import NewsViewer from "./NewsViewer";
 import Building from "./Building";
+import PageTest from "./PageTest";
+import About from "./About";
 
-export { Interests, NewsFeed, Slider, Ranking, Home, NewsViewer, Building };
+export {
+  Interests,
+  NewsFeed,
+  Slider,
+  Ranking,
+  Home,
+  NewsViewer,
+  Building,
+  PageTest,
+  About,
+};
