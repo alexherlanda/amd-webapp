@@ -1,0 +1,19 @@
+.coursesCollection {
+  padding: 15px;
+}
+
+.coursesCarrousel {
+  width: 100%;
+  padding: 5px;
+}
+
+.coursesCarrousel__collectionTitle {
+  color: #b3b3b3;
+  text-transform: capitalize;
+  font-family: "GothamBold";
+}
+
+.coursesCarrousel__item {
+  display: flex;
+  justify-content: center;
+}

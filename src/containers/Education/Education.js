@@ -1,22 +1,67 @@
-import { CourseItem } from "../../components";
+import { CoursesCarrousel } from "../../components";
 const Education = () => {
   return (
-    <div
-      style={{
-        alignItems: "center",
-        display: "flex",
-        justifyContent: "center",
-        margin: 10,
-      }}
-    >
-      <CourseItem
-        title="Documento"
-        subtitle="Lorem Ipsum"
-        description="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh."
-        img="this"
+    <>
+      <CoursesCarrousel collectionTitle="Oratoria" coursesData={data} />
+      <CoursesCarrousel collectionTitle="Retorica" coursesData={data} />
+      <CoursesCarrousel
+        collectionTitle="Tengo torneo mañana"
+        coursesData={data}
       />
-    </div>
+      <CoursesCarrousel collectionTitle="Para maratonear" coursesData={data} />
+    </>
   );
 };
+
+const data = [
+  {
+    id: 1,
+    title: "DOCUMENTO",
+    subtitle: "hola",
+    description:
+      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.",
+    img: "",
+  },
+  {
+    id: 2,
+    title: "DOCUMENTO",
+    subtitle: "hola",
+    description:
+      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.",
+    img: "",
+  },
+  {
+    id: 3,
+    title: "DOCUMENTO",
+    subtitle: "hola",
+    description:
+      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.",
+    img: "",
+  },
+  {
+    id: 4,
+    title: "DOCUMENTO",
+    subtitle: "hola",
+    description:
+      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.",
+    img: "",
+  },
+  {
+    id: 5,
+    title: "DOCUMENTO",
+    subtitle: "hola",
+    description:
+      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.",
+    img: "",
+  },
+  {
+    id: 6,
+    title: "DOCUMENTO",
+    subtitle: "hola",
+    description:
+      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.",
+    img: "",
+  },
+];
 
 export default Education;

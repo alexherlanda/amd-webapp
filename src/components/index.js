@@ -9,10 +9,10 @@ import SpeakerCard from "./SpeakerCard";
 import NavBar from "./NavBar";
 import MenuMobile from "./MenuMobile";
 import SliderMobile from "./SliderMobile";
-import CourseItem from "./CourseItem";
+import CoursesCarrousel from "./CoursesCarrousel";
 
 export {
-  CourseItem,
+  CoursesCarrousel,
   TopBar,
   NewsCard,
   InterestCard,
