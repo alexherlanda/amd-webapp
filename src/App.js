@@ -7,6 +7,7 @@ import {
   PageTest,
   About,
 } from "./containers";
+import { Education } from "./containers";
 import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
 
 import "./App.css";
@@ -33,6 +34,7 @@ function App() {
               <Route exact path="/wip" component={WIP} />
               <Route exact path="/" component={Home} />
               <Route exact path="/test" component={PageTest} />
+              <Route exact path="/education" component={Education} />
             </Switch>
           </>
         )}

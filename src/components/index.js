@@ -13,7 +13,10 @@ import SectionResume from "./SectionResume";
 import SectionImage from "./SectionImage";
 import TeamMember from "./TeamMember";
 import Subtitle from "./Subtitle";
+import CoursesCarrousel from "./CoursesCarrousel";
+
 export {
+  CoursesCarrousel,
   TopBar,
   NewsCard,
   InterestCard,

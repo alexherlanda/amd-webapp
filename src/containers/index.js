@@ -7,6 +7,7 @@ import NewsViewer from "./NewsViewer";
 import Building from "./Building";
 import PageTest from "./PageTest";
 import About from "./About";
+import Education from "./Education";
 
 export {
   Interests,
@@ -18,4 +19,5 @@ export {
   Building,
   PageTest,
   About,
+  Education,
 };
