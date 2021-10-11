@@ -23,7 +23,7 @@ function App() {
     <Router>
       <Switch>
         {isMenuOpen ? (
-          <MenuMobile onClose={toggleMenu} />
+          <MenuMobile onClose={toggleMenu} visible={isMenuOpen} />
         ) : (
           <>
             <TopBar onMenuClick={toggleMenu} />
