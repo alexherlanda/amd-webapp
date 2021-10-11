@@ -1,5 +1,5 @@
 import React from "react";
-import { Section, Footer, SliderMobile } from "../../components";
+import { Section, SliderMobile } from "../../components";
 import { Interests, NewsFeed, Ranking, Slider } from "../../containers";
 
 import { useMediaQuery } from "react-responsive";
@@ -34,8 +34,6 @@ function App() {
       <Section title="Esto te interesa" description="">
         <Interests />
       </Section>
-
-      <Footer />
     </>
   );
 }

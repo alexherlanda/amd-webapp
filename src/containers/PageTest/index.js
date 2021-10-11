@@ -82,38 +82,6 @@ function PageTest() {
           </div>
         </div>
       </Section>
-      <Section type="segment" style={{ background: "#F7F7F7" }}>
-        <div class="container">
-          <Subtitle title="Asociados" />
-          <div class="row">
-            <TeamMember
-              src={girl}
-              name="Jessi Romero"
-              rol="React JS / React Native - Developer "
-            />
-            <TeamMember
-              src={man}
-              name="Tomás Hernández Alvarado"
-              rol="React JS / React Native - Developer "
-            />
-            <TeamMember
-              src={man}
-              name="Tomás Hernández Alvarado"
-              rol="React JS / React Native - Developer "
-            />
-            <TeamMember
-              src={man}
-              name="Tomás Hernández Alvarado"
-              rol="React JS / React Native - Developer "
-            />
-            <TeamMember
-              src={man}
-              name="Tomás Hernández Alvarado"
-              rol="React JS / React Native - Developer "
-            />
-          </div>
-        </div>
-      </Section>
     </>
   );
 }
