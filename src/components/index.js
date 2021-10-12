@@ -14,6 +14,7 @@ import SectionImage from "./SectionImage";
 import TeamMember from "./TeamMember";
 import Subtitle from "./Subtitle";
 import CoursesCarrousel from "./CoursesCarrousel";
+import Timeline from "./TimeLine";
 
 export {
   CoursesCarrousel,
@@ -32,4 +33,5 @@ export {
   SectionImage,
   TeamMember,
   Subtitle,
+  Timeline,
 };
