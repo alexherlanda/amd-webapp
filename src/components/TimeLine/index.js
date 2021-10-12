@@ -14,7 +14,7 @@ function Timeline() {
     <div className="timeline__container">
       {timelineTitle("timeline__above")}
       {timelineTitle("timeline__below")}
-      <div className="timeline__year">
+      <div className="timeline__years">
         <h3>
           <span className="timeline__year-active">2013</span>
           <span className="timeline__year-arrow">>></span>
