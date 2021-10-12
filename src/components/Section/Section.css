@@ -75,3 +75,33 @@
   color: #205979;
   flex-shrink: 0;
 }
+
+@media (min-width: 320px) {
+  .section__container {
+    padding: 10px !important;
+    width: 100%;
+  }
+  .section__line {
+    border: none;
+    padding: 0 !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .section__container {
+    padding: 10px !important;
+    width: 100%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

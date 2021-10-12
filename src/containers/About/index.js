@@ -7,6 +7,7 @@ import {
   Subtitle,
   TeamMember,
   CoverageCarrousel,
+  Timeline,
 } from "components/";
 function About() {
   return (
@@ -78,7 +79,9 @@ function About() {
         </div>
       </Section>
       <Section type="resume">
-        <SectionResume title="HISTORIA"></SectionResume>
+        <SectionResume title="">
+          <Timeline />
+        </SectionResume>
       </Section>
       <Section type="single">
         <div class="container">
