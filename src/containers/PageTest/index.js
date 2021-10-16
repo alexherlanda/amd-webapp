@@ -39,7 +39,7 @@ function PageTest() {
       <Section type="segment">
         <div class="container">
           <div class="row">
-            <div class="col">
+            <div class="col col-sm-24">
               <SectionResume title="segmento">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -53,7 +53,7 @@ function PageTest() {
                 </p>
               </SectionResume>
             </div>
-            <div class="col">
+            <div class="col col-sm-12">
               <SectionImage src={img1} />
             </div>
           </div>
