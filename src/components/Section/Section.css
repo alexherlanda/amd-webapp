@@ -77,9 +77,9 @@
 }
 
 @media (min-width: 320px) {
-  .row {
-    display: block !important;
-  }
+  /* .row {
+    display: block;
+  } */
   .section__container {
     padding: 10px !important;
     width: 100%;
@@ -88,9 +88,15 @@
     border: none;
     padding: 0 !important;
   }
+  .col {
+    flex: none;
+  }
 }
 
 @media (min-width: 576px) {
+  .col {
+    flex: 1 0 0%;
+  }
   .section__container {
     padding: 10px !important;
     width: 100%;
