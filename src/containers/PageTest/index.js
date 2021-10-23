@@ -38,7 +38,7 @@ function PageTest() {
       </Section>
       <Section type="segment">
         <div class="container">
-          <div class="row">
+          <div class="row row-with-end-image">
             <div class="col col-sm-24">
               <SectionResume title="segmento">
                 <p>
@@ -61,7 +61,7 @@ function PageTest() {
       </Section>
       <Section type="segment">
         <div class="container">
-          <div class="row">
+          <div class="row ">
             <div class="col">
               <SectionImage src={img2} />
             </div>

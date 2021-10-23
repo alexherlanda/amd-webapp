@@ -56,7 +56,7 @@ function About() {
           </div>
         </div>
       </Section>
-      <Section type="segment">
+      <Section type="segment" bg="bg-gray">
         <div class="container">
           <Subtitle title="Equipo ejecutivo" />
           <div class="row">
@@ -89,7 +89,7 @@ function About() {
           <div class="row"></div>
         </div>
       </Section>
-      <Section type="segment">
+      <Section type="segment" bg="bg-gray">
         <div class="container">
           <Subtitle title="Colaboraciones" />
         </div>
