@@ -1,0 +1,63 @@
+.coverageItem {
+  width: 330px;
+  height: 150px;
+  background-color: white;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.coverageItemImg {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  margin-right: 5px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+  width: 200px;
+  text-overflow: ellipsis;
+}
+
+.quote__text {
+  font-family: "GothamBold";
+  color: #205979;
+  font-size: 16px;
+}
+
+.quote__more {
+  font-family: "GothamBold";
+  color: #fb6e4c;
+  font-size: 16px;
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  .coverageItem {
+    width: 500px;
+  }
+
+  .coverageItemImg {
+    height: 120px;
+    width: 120px;
+    margin-right: 12px;
+  }
+
+  .quote {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+    width: 250px;
+    text-overflow: ellipsis;
+  }
+}
