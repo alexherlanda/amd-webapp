@@ -126,6 +126,16 @@
     padding: 10px !important;
     width: 100%;
   }
+  .section-mobile {
+    width: 100%;
+  }
+  .section-mobile .subtitle {
+    margin: 1rem;
+    margin-bottom: 5rem;
+  }
+  .section-mobile .teammember__container {
+    margin-bottom: 5rem;
+  }
   .section__line {
     border: none;
     padding: 0 !important;
