@@ -14,7 +14,7 @@ const Item = ({ imgSrc }) => {
             "Gestor Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam..."
           }
         </span>
-        <a href="#">
+        <a href="www.reforma.com">
           <span> Ver mas >>></span>
         </a>
       </div>

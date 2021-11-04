@@ -1,0 +1,36 @@
+.colaborationsCarrouselRoot {
+  background-color: #f2f2f2;
+  padding: 15px;
+}
+
+.colaborationsCarrousel__title {
+  margin-left: 0px;
+}
+
+.colaborationsCarrousel {
+  width: 100%;
+  padding: 0px 15px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.coursesCarrousel__item {
+  display: flex;
+  justify-content: center;
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 992px) {
+  .colaborationsCarrouselRoot {
+    background-color: #f2f2f2;
+    padding: 15px;
+  }
+
+  .colaborationsCarrousel__title {
+    margin-left: 250px;
+  }
+
+  .colaborationsCarrousel {
+    padding: 0px 25px;
+  }
+}

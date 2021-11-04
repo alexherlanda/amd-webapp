@@ -16,6 +16,7 @@ const CoverageCarrousel = ({ collectionTitle = "title", coursesData }) => {
         draggable
         className="coverageCarrousel"
         customLeftArrow={<div />}
+        removeArrowOnDeviceType={["tablet", "mobile"]}
       >
         <Item
           imgSrc={

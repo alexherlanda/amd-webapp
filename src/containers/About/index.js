@@ -1,13 +1,10 @@
 import React from "react";
-import girl from "assets/images/girl.jpg";
-import man from "assets/images/man.jpg";
+
 import {
   Section,
   SectionResume,
-  Subtitle,
-  TeamMember,
   CoverageCarrousel,
-  Timeline,
+  ColaborationsCarrousel,
 } from "components/";
 function About() {
   return (
@@ -34,66 +31,8 @@ function About() {
           </p>
         </SectionResume>
       </Section>
-      <Section type="single">
-        <div class="container">
-          <Subtitle title="Asociados" />
-          <div class="row">
-            <TeamMember
-              src={girl}
-              name="Jessi Romero"
-              rol="React JS / React Native - Developer "
-            />
-            <TeamMember
-              src={man}
-              name="Tomás Hernández Alvarado"
-              rol="React JS / React Native - Developer "
-            />
-            <TeamMember
-              src={man}
-              name="Tomás Hernández Alvarado"
-              rol="React JS / React Native - Developer "
-            />
-          </div>
-        </div>
-      </Section>
-      <Section type="segment" bg="bg-gray">
-        <div class="container">
-          <Subtitle title="Equipo ejecutivo" />
-          <div class="row">
-            <TeamMember
-              src={girl}
-              name="Jessi Romero"
-              rol="React JS / React Native - Developer "
-            />
-            <TeamMember
-              src={man}
-              name="Tomás Hernández Alvarado"
-              rol="React JS / React Native - Developer "
-            />
-            <TeamMember
-              src={man}
-              name="Tomás Hernández Alvarado"
-              rol="React JS / React Native - Developer "
-            />
-          </div>
-        </div>
-      </Section>
-      <Section type="resume">
-        <SectionResume title="">
-          <Timeline />
-        </SectionResume>
-      </Section>
-      <Section type="single">
-        <div class="container">
-          <Subtitle title="Proyectos" />
-          <div class="row"></div>
-        </div>
-      </Section>
-      <Section type="segment" bg="bg-gray">
-        <div class="container">
-          <Subtitle title="Colaboraciones" />
-        </div>
-      </Section>
+
+      <ColaborationsCarrousel />
       <CoverageCarrousel />
     </>
   );

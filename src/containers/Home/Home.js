@@ -1,4 +1,3 @@
-import React from "react";
 import { Section, SliderMobile } from "../../components";
 import { Interests, NewsFeed, Ranking, Slider } from "../../containers";
 

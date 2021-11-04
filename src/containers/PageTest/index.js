@@ -1,15 +1,7 @@
 import React from "react";
-import {
-  Section,
-  SectionResume,
-  SectionImage,
-  TeamMember,
-  Subtitle,
-} from "components";
+import { Section, SectionResume, SectionImage } from "components";
 import img1 from "assets/images/img1.jpeg";
 import img2 from "assets/images/img2.jpeg";
-import girl from "assets/images/girl.jpg";
-import man from "assets/images/man.jpg";
 
 function PageTest() {
   return (

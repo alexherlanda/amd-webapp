@@ -16,6 +16,7 @@ import Subtitle from "./Subtitle";
 import CoursesCarrousel from "./CoursesCarrousel";
 import CoverageCarrousel from "./CoverageCarrousel";
 import Timeline from "./TimeLine";
+import ColaborationsCarrousel from "./ColaborationsCarrousel";
 
 export {
   CoursesCarrousel,
@@ -36,4 +37,5 @@ export {
   Subtitle,
   CoverageCarrousel,
   Timeline,
+  ColaborationsCarrousel,
 };
